@@ -1,27 +1,54 @@
-p {
-  color: #6c727f;
-}
-
-h3 {
-  color: #20293a;
-}
-
 body {
   background-color: #fafaf9;
   font-family: "Sora", sans-serif;
 }
 
 #card {
+  margin-top: 164px;
+}
+p {
+  color: #6c727f;
+  font-size: 0.875rem;
+}
+
+h3 {
+  color: #20293a;
+  font-size: 1.125rem;
+}
+
+.small-text {
+  font-size: 0.75rem;
+}
+
+#card {
   width: 368px;
   background-color: #ffffff;
+  border-radius: 15px;
+  box-shadow: 0px 30px 100px 0px rgba(17, 23, 41, 0.05);
 }
 
 #cactus {
   width: 336px;
   height: 152px;
+  padding: 16px;
+  border-radius: 15px;
+}
+
+.tags {
+  font-size: 0.625rem;
 }
 
 .design-tag {
   color: #883ae1;
   background-color: #e6d6fc;
+  padding: 6px;
+}
+
+.side-spacing {
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+#footer-text {
+  padding: 16px 16px 20px 16px;
 }
