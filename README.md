@@ -1,2 +1,3 @@
 # devChallenges Responsive Web
-a dev challenge
+
+Minimal Blog Card
