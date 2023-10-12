@@ -3,9 +3,6 @@ body {
   font-family: "Sora", sans-serif;
 }
 
-#card {
-  margin-top: 164px;
-}
 p {
   color: #6c727f;
   font-size: 0.875rem;
@@ -16,8 +13,18 @@ h3 {
   font-size: 1.125rem;
 }
 
+hr.solid {
+  color: #6c727f;
+}
+
 .small-text {
   font-size: 0.75rem;
+  padding-top: 20px;
+}
+
+.text-bottom {
+  padding-bottom: 20px;
+  margin: 0;
 }
 
 #card {
@@ -25,12 +32,18 @@ h3 {
   background-color: #ffffff;
   border-radius: 15px;
   box-shadow: 0px 30px 100px 0px rgba(17, 23, 41, 0.05);
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 164px;
+}
+
+#card-img {
+  padding: 16px;
 }
 
 #cactus {
   width: 336px;
   height: 152px;
-  padding: 16px;
   border-radius: 15px;
 }
 
