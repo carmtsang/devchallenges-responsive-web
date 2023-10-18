@@ -15,7 +15,8 @@ body {
 .body {
   color: #6c727f;
   font-size: 0.875rem;
-  font-weight: 100;
+  font-weight: 200;
+  padding-bottom: 20px;
 }
 
 .header {
@@ -38,11 +39,6 @@ body {
   font-weight: 300;
 }
 
-.text-bottom {
-  padding-bottom: 20px;
-  margin: 0;
-}
-
 .card {
   width: 368px;
   background-color: #ffffff;
@@ -51,7 +47,11 @@ body {
   margin-left: auto;
   margin-right: auto;
   margin-top: 164px;
-  padding: 16px;
+  padding: 16px 16px 20px 16px;
+}
+
+.card-pic {
+  padding-bottom: 10px;
 }
 
 .card-pic img {
