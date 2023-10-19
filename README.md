@@ -1,3 +1,7 @@
 # devChallenges Responsive Web
 
-Minimal Blog Card
+This repo is for the Responsive Web path on devChallenges.
+
+#### Completed challenges:
+
+- Minimal Blog Card
