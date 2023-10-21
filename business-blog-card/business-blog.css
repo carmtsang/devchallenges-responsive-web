@@ -5,19 +5,29 @@
   margin: 0;
   padding: 0;
   font-family: "Lato", sans-serif;
+  line-height: 1.5;
 }
 
 body {
   background-color: #f2f5f9;
+  display: flex;
+  justify-content: center;
+}
+
+h1,
+h3 {
+  color: #20293a;
+}
+
+p {
+  color: #677489;
 }
 
 .card {
   background-color: #ffffff;
-  margin-top: 164px;
-  margin-left: auto;
-  margin-right: auto;
   width: 422px;
   border-radius: 15px;
+  margin-top: 100px;
 }
 
 .card-img {
@@ -29,6 +39,7 @@ body {
 .card-img img {
   width: 100%;
 }
+
 .picture {
   position: relative;
   top: 0;
@@ -40,4 +51,59 @@ body {
   position: absolute;
   top: 215px;
   left: 0px;
+}
+
+.header {
+  padding: 0 32px;
+}
+
+.body {
+  margin: 10px 32px 25px 32px;
+}
+
+.header h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.body p {
+  font-size: 1rem;
+}
+
+.divider {
+  border-top: solid #f2f5f9;
+  border-width: 1px;
+}
+
+.footer {
+  margin: 25px 32px 20px 32px;
+  display: flex;
+}
+
+.footer-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 12px;
+}
+
+.footer-text h3 {
+  font-size: 1rem;
+}
+
+.footer-text p {
+  font-size: 0.75rem;
+}
+
+.footer-avatar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-avatar img {
+  border-radius: 50%;
+  border: 4px solid #f2f5f9;
+  width: 3rem;
 }
