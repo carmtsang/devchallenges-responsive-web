@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Sora:wght@100;200;300;400;500;600;700;800&display=swap");
+
+* {
+  box-sizing: border-box;
+  font-family: "Sora", sans-serif;
+}
+
+body {
+  background-color: #fafaf9;
+}
+
+h1,
+h3 {
+  color: #18181b;
+}
+
+#star-circle {
+  background-color: #f5c044;
+  padding: 8px;
+  width: 3rem;
+  border-radius: 50%;
+}
+
+.card {
+  background-color: #ffffff;
+}
+
+.logo {
+  width: 85px;
+}
+
+#checklist {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#checklist img {
+  filter: invert(50%) sepia(13%) saturate(1853%) hue-rotate(75deg)
+    brightness(106%) contrast(77%);
+}
+
+.checklist {
+  color: #52525a;
+}
+.card-title ul {
+  list-style: url(../images/Star_fill.svg) inside;
+}
+
+.gold-star {
+  filter: invert(75%) sepia(21%) saturate(1472%) hue-rotate(345deg)
+    brightness(110%) contrast(92%);
+}
+
+.gray-star {
+  filter: invert(99%) sepia(1%) saturate(3107%) hue-rotate(184deg)
+    brightness(113%) contrast(65%);
+}
