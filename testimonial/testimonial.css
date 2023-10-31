@@ -3,10 +3,30 @@
 * {
   box-sizing: border-box;
   font-family: "Sora", sans-serif;
+  line-height: 1.5;
+  color: #52525a;
 }
 
 body {
   background-color: #fafaf9;
+  margin: 100px 72px;
+  display: flex;
+}
+
+.main,
+.side {
+  width: 50%;
+}
+
+.main {
+  padding-right: 16.5px;
+}
+
+.side {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-left: 16.5px;
 }
 
 h1,
@@ -21,30 +41,78 @@ h3 {
   border-radius: 50%;
 }
 
+.header h1 {
+  font-size: 2.25rem;
+  margin: 0;
+}
+
+.body-text {
+  font-size: 1.25rem;
+  font-weight: 400;
+  padding-bottom: 1rem;
+}
+
 .card {
   background-color: #ffffff;
+  width: 357.5px;
+  border-radius: 15px;
+  padding: 1.5rem 2.25rem;
 }
 
 .logo {
-  width: 85px;
+  width: auto;
+  height: 30px;
 }
 
 #checklist {
   list-style: none;
   margin: 0;
   padding: 0;
+  font-size: 0.85rem;
 }
 
 #checklist img {
   filter: invert(50%) sepia(13%) saturate(1853%) hue-rotate(75deg)
     brightness(106%) contrast(77%);
+  padding-right: 0.75rem;
 }
 
-.checklist {
-  color: #52525a;
+#checklist li {
+  display: flex;
+  align-items: center;
+  padding-bottom: 0.875rem;
 }
-.card-title ul {
+
+#google {
+  align-self: flex-end;
+}
+
+.card-logo {
+  display: flex;
+  align-items: center;
+}
+
+.card-logo ul {
   list-style: url(../images/Star_fill.svg) inside;
+  display: flex;
+  padding-inline-start: 20px;
+  margin: 0;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-text,
+.card-title {
+  font-size: 1rem;
+  margin: 0;
+}
+
+.card-title {
+  padding: 10px 0;
+}
+
+.card-text {
+  line-height: 2;
 }
 
 .gold-star {
@@ -53,6 +121,6 @@ h3 {
 }
 
 .gray-star {
-  filter: invert(99%) sepia(1%) saturate(3107%) hue-rotate(184deg)
-    brightness(113%) contrast(65%);
+  filter: invert(84%) sepia(2%) saturate(235%) hue-rotate(202deg)
+    brightness(98%) contrast(100%);
 }
