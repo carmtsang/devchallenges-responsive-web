@@ -4,15 +4,51 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>contact page</title>
-    <link rel="stylesheet" href="/contact/contact.css" />
+    <link rel="stylesheet" href="contact.css" />
   </head>
   <body>
+    <nav>
+      <img src="../images/contact-form-icon.svg" alt="company logo" />
+    </nav>
     <div class="header">
-      <img src="/images/contact-form-icon.svg" alt="company logo" />
+      <h1>Interested in our business pricing?</h1>
+      <h2>
+        Fill out the form to view details and we&apos;ll contact you as soon as
+        possible.
+      </h2>
     </div>
-    <div class="main">
-      <h1></h1>
-    </div>
-    <div class="form"></div>
+    <main class="card">
+      <div class="form">
+        <form method="post">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" value="Ethan Johnson" />
+
+          <label for="email">Company Email</label>
+          <input
+            type="text"
+            id="email"
+            name="email"
+            value="ethan@johnson.com"
+          />
+
+          <label for="size">Company Size</label>
+          <select name="size" id="size">
+            <option value="1 to 49">1 to 49 employees</option>
+            <option value="50 to 100">50 to 100 employees</option>
+            <option value="101 to 200">101 to 200 employees</option>
+            <option value="201 to 300">201 to 300 employees</option>
+          </select>
+          <label for="subject">Subject</label>
+          <select name="subject" id="subject">
+            <option value="landing pages">Building Landing pages</option>
+            <option value="advertising">Advertising campaigns</option>
+            <option value="content">Content creation</option>
+          </select>
+          <label for="message">Message</label>
+          <input type="textbox" id="message" name="message" />
+          <input type="submit" value="Contact Sales" />
+        </form>
+      </div>
+    </main>
   </body>
 </html>
